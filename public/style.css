@@ -1,0 +1,2270 @@
+/* #df9747 #cb8635 #b77524 #a36412 #8f5300*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  
+  }
+  :root { 
+    --hue:90;
+    --third-color: hsla(0, 61%, 32%, 0.1);
+    --bg-color: hsl(0, 0%, 16%);
+}
+  body {
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+   
+  }
+  .head{
+    display: flex;
+    flex-direction: row;
+    background-color: #03045E; 
+    width: 100%;
+    height: 10%;
+    z-index: 3;
+    top:0%;
+    position:absolute;
+    }
+    .img-logo{
+        margin-top: 4%;
+        margin-left: 30%;
+        height: 6vh;
+        width: 13vw;
+    }
+    .links{
+        width: 100%;
+        margin-top: 1.5%;
+        margin-left: 20%;
+        justify-content: space-around;
+        border-radius: 55px;
+    }
+    .links a{
+        margin-left: 2%;
+        text-decoration: none;
+        color:#94bad1;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2vw;
+        font-style: normal;
+    }
+    .links a:hover{
+      color: #AC8027;
+
+    }
+    .redes-sociais{
+      width: 30%;
+      height: 10%;
+      margin-top: 1%;
+    }
+    .redes-sociais img{
+      width: 35px;
+      height: 35px;
+      margin-left: 6%;
+    }
+    .redes-sociais img:hover{
+     background-color: #457b9d;
+     border-radius: 15px;
+    }
+    .mobile-menu{
+      cursor: pointer;
+      margin-left: 25%;
+      margin-top: 2%;
+      display: none;
+    }
+    .mobile-menu div{
+      margin-left: 50%;
+      margin-top: 5%;
+      height: 5px;
+      width: 32px;
+      background-color: #38369e;
+    }
+    
+
+
+  .sessao1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent black background */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */  
+  }
+  .sessao2 {
+    position: relative;
+    z-index: 1;
+    width: 100%; /* Adjust width as needed */
+    height: 80vh;
+    background-color: #03045e; /* Semi-transparent black background */
+    color: white; /* Text color for contrast */
+    display: flex;
+    justify-content:center;
+    flex-direction: row-reverse;
+    overflow-y:scroll;
+  }
+  .sessao-sobreposta {
+    width: 75vw;
+    height: 47vh;
+    z-index: 2; 
+    margin-top: 5%; 
+    background-image: url(FotoMenor.jpg);
+    background-repeat: no-repeat;
+    background-position:-10% top;
+    background-size: cover;
+    margin-right: 10%;
+  }
+  
+  .texto{
+    margin-left: 10%;
+  }
+  .titulo-motivacao{
+    height: 70%;
+    width: 60%;
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 12%;
+    padding-bottom: 2%;
+
+  }
+  .texto-motivacao{
+    width: 50%;
+    height: 80%;
+    font-size: 1.2vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  
+  }
+  
+  .sessao3 {
+    width: 100%; /* Adjust width as needed */
+    height: 90vh;
+    background-color:#AC8027;
+    display: flex;
+    flex-direction: column;
+  }
+  .texto-produtos{
+    width: 100%;
+    height: 10vh;
+    z-index: 4;
+    order: 1;
+    position: absolute;
+    background-color: #AC8027;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .texto-produtos p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5; 
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: aliceblue;
+  }
+  .produtos{
+    width: 90%;
+    height: 90%;
+    margin-top:5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .exemplo-produto{
+    width: 30%;
+    height: 78%;
+    background-color: aliceblue;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .desc-produto{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 1.6vw;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .foto-produto{
+    background-color: #0C0C0C;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .foto-produto img {
+    height: 100%;
+    width: 100%;
+
+  }
+  .sessao4{
+    width: 100%; /* Adjust width as needed */
+    height: 90vh;
+    background-color:#03045e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .texto-promocao{
+    height: 60vh;
+    width: 40vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-right:5%;
+    color: aliceblue;
+  }
+  .texto1{
+    margin-top: 1%;
+    line-height: 20px;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 20px;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .caixa-promo{
+    background-color: #AC8027;
+    width: 40%;
+    height: 10%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+  }
+  .caixa-promo p {
+    font-family: "Poppins", sans-serif; 
+    font-size: 2.1vw;
+    font-weight: 700;
+    text-align: center;
+    max-width: 30%;
+  }
+
+  .contato-wpp{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    margin-left: 2%;
+    flex-direction: row;
+    position: fixed; 
+    bottom: 2%;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+
+  }
+  .contato-wpp::before {
+    content: "Faça seu Orçamento!"; 
+    position: absolute;
+    top: 37%;
+    left: 42%; 
+    transform: translate(-50%, -50%); 
+    color:#417133; /* Text color */
+    opacity: 0; /* Hide the text initially */
+    transition: opacity 0.8s ease; /* Add transition for opacity */
+    width: 10vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+  
+  }
+  .contato-wpp:hover::before {
+    opacity: 1; /* Show the text on hover */
+  }
+  .contato-wpp img{
+    height: 90%;
+    width: 100%;
+  }
+  footer{
+    height: 20vh;
+    color:#ffffff;
+    background-color: #03031B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p{
+    font-size: 1.3vw;
+  }
+
+@media (min-height: 1180px){
+  .head{
+    height: 6vh;
+  }
+  .logo{
+    margin-top: 1%;
+  }
+  .img-logo{
+    height: 4vh;
+    width: 25vw ;
+    margin-left:4%;
+  }
+  .links{
+    margin-top: 3%;
+  }
+  .sessao2{
+    height: 80vh;
+  }
+  .sessao-sobreposta{
+    height: 25vh;
+    width: 40vh;
+
+  }
+  .titulo-motivacao{
+    margin-left: 10%;
+    width: 70%;
+  }
+  .texto-motivacao{
+    width: 60%;
+  }
+  .texto-produtos{
+    height: 15vh;
+  }
+  .texto-produtos p{
+    font-size: 25px;
+  }
+  .sessao3{
+    height: 85vh;
+  }
+  .produtos{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .exemplo-produto{
+   
+    height: 20vh;
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 3vw;
+  }
+  .contato-wpp {
+    position: fixed; /* Keep icon fixed on mobile */
+    margin-bottom: -2%; 
+  }
+  .contato-wpp img{
+    width: 65px;
+    height: 65px;
+  }
+  .contato-wpp::before {
+    content: "Faça seu Orçamento!"; /* Text content to display */
+    width: 20vw;
+    left:90%;
+    background-color: #417133;
+    border-radius: 5px;
+    text-align: center; 
+  }
+    .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .texto1{
+    width: 100%;
+    margin-top: 20%;
+    line-height: 35px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 65px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 8.5vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 35px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .caixa-promo{
+    margin-top: 10%;
+  }
+  .caixa-promo p{
+    font-size: 5vw;
+  }
+  .sacola-promo{
+    margin-bottom: 15%;
+  }
+  footer{
+   background-color: #03031B;
+  }
+}
+
+@media (max-width: 1280px) {
+  .img-logo{
+    margin-top: 5%;
+  }
+  .links{
+    margin-top: 2%;
+  }
+  .links a:hover{
+    color: #ffffff;
+
+  }
+  .redes-sociais{
+    margin-top: 1%;
+  }
+  .sessao2{
+    height: 60vh;
+    overflow-y: visible;
+  }
+  .sessao-sobreposta{
+    width: 130vw;
+    margin-right: 6%;
+    background-position:left;
+  }
+  .titulo-motivacao{
+    font-size: 2.3vw;
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 1%;
+  }
+  .texto-motivacao{ 
+    font-size: 1.4vw;
+  }
+  .sessao3{
+    height: 80vh;
+  }
+  .produtos{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-right: 2%;
+    
+  }
+  .exemplo-produto{
+    height: 30vh;
+    margin-top: 10%;
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 1.5vw;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+ 
+  .caixa-promo{
+    margin-top: 10%;
+    font-size: 5vw;
+  }
+  .sacola-promo{
+    margin-bottom: 15%;
+    margin-right: 2%;
+  }
+
+
+}
+@media (max-width: 1024px){
+  .img-logo{
+    margin-top: 5%;
+  }
+  body{
+    background-position: center;
+  }
+  .links{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .links-pag a{
+    font-size: 1.8vw;
+    font-weight: 500;
+  }
+  .redes-sociais{
+    margin-top: 1%;
+  }
+  .sessao2{
+    height: 60vh;
+  }
+  .sessao-sobreposta{
+    width: 130vw;
+    margin-right: 6%;
+    background-position:left;
+  }
+  .titulo-motivacao{
+    font-size: 2.4vw;
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 1%;
+  }
+  .texto-motivacao{
+    font-size: 1.2vw;
+  }
+  .sessao3{
+    height: 70vh;
+  }
+  .produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-left:1%;
+    overflow-x: hidden;
+  }
+  .exemplo-produto{
+    height: 25vh;
+    width: 50vw;
+    margin-top: 6%;
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 1.7vw;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+  .caixa-promo{
+    margin-top: 10%;
+  }
+  .caixa-promo p{
+    font-size: 3vw;
+  }
+  .sacola-promo{
+    margin-bottom: 15%;
+  }
+
+}
+@media (max-width: 920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg);
+    background-repeat:unset;
+    background-size: cover;
+    background-position: center;
+    background-attachment: relative; /* Fix the background image to scroll */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+  /* Header */
+  .head {
+    width: 100%;
+    display: flex;
+    height: 7vh;
+  }
+  .img-logo{
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .mobile-menu{
+    cursor: pointer;
+    margin-left: 60%;
+    margin-top: 4%;
+    display: block;
+  }
+  .mobile-menu div{
+    margin-top: 5%;
+    height: 8px;
+    width: 37px;
+    background-color:#AC8027;
+    transition: 0.3s;
+  }
+  .redes-sociais{
+    display: none;
+  }
+  .links{
+    top: 6.5vh;
+    right: 0%;
+    width: 30vw;
+    height: 60vh;
+    background-color:#AC8027; 
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100vh);
+    transition: transform 0.4s ease-in ;
+    display: none;
+  }
+  .links-pag{
+    width: 90%;
+    max-height: 80%;
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    align-items: center;
+  }
+  .links-pag a{
+    margin-top: 55%;
+    color: aliceblue;
+
+  }
+  .links.active {
+    transform: translateX(0%);
+    display: block;
+  }
+  @keyframes navlink {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .linha-1{
+   transform: rotate(-47deg) translate(-3px, 7px);
+  }
+  .mobile-menu.active .linha-2{
+   opacity: 0;    
+  }
+  .mobile-menu.active .linha-3{
+    transform: rotate(49deg) translate(-3px, -5px);
+  }
+  .img-logo{
+    margin-left: 5px; /* Center image horizontally on mobile */
+  }
+
+  .links a {
+    font-size: medium;
+  }
+
+
+
+  .sessao1{
+    width: 100%;
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .sessao2{
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .sessao3{
+    height: 110vh;
+  }
+  .sessao-sobreposta {
+    width: 45%; 
+    height: 30%;
+    margin-top: -30%;
+  }
+  .titulo-motivacao{
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 5vw;
+  }
+  
+  .texto-motivacao {
+    margin-left: 5%;
+    font-size: 2.2vw;
+    width: 70%; 
+ 
+  }
+
+
+
+   /* Products */
+  .sessao3 {
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 120vh;
+    overflow: hidden;
+  }
+  .texto-produtos{
+    margin-top: -3vh;
+    margin-left: 25%;
+    height: 15vh;
+    width: 50vw;
+  }
+
+  .produtos {
+    flex-direction: column;
+    height: 200vh;
+    margin-left:35%;
+    margin-top: 15%; 
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .exemplo-produto {
+    width: 30%;
+    height: 25vh; /* Make products take full width on mobile */
+ /* Add margin for spacing on mobile */
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 2.8vw;
+  }
+  #produto-final{
+    display: none;
+  }
+
+  .sessao4{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .texto1{
+    width: 100%;
+    margin-top: 20%;
+    line-height: 35px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 65px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 8.5vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 35px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .caixa-promo{
+    margin-top: 10%;
+    font-size: 5vw;
+  }
+  .sacola-promo{
+    margin-bottom: 15%;
+  }
+
+  /* Contact */
+  .contato-wpp {
+    position: fixed; /* Keep icon fixed on mobile */
+    bottom: 20px; 
+  }
+  .contato-wpp::before {
+    content: "Faça seu Orçamento!"; /* Text content to display */
+    width: 20vw;
+    left:90%;
+    background-color: #417133;
+    border-radius: 5px;
+    text-align: center; 
+  }
+  footer{
+    font-size: 2.3vw;
+  }
+}
+@media (max-width:890px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  body {
+    overflow-x:hidden;
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg);
+    background-position: center; 
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+  /* Header */
+  .head {
+    max-width: 100%;
+    display: flex;
+    height: 8vh;
+  }
+  .logo{
+  margin-left: 1%;
+  }
+  .img-logo{
+  margin-top: 5%;
+  width: 100%;
+  }
+  .mobile-menu{
+    cursor: pointer;
+    margin-top: 4%;
+
+  }
+  .mobile-menu div{
+    margin-top: 10%;
+    height: 4px;
+    width: 32px;
+    background-color:#AC8027;
+    transition: 0.3s;
+  }
+  .redes-sociais{
+    display: none;
+  }
+  .links{
+    top: 10vh;
+    right: 1%;
+    width: 25vw;
+    height: 80vh;
+    background-color:#AC8027; 
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    transform: translateX(100vw);
+    transition: transform 0.4s ease-in ;
+    max-width: 80%;
+    display: none;
+  }
+  .links a {
+    font-size: medium;
+  }
+  .links-pag{
+    max-width: 90%;
+    max-height: 80%;
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+
+  }
+  .links-pag a{
+  margin-bottom: 25%;
+  right:0%
+  }
+  
+  .links.active {
+    transform: translateX(0%);
+    display: flex;
+  }
+  @keyframes navlink {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .linha-1{
+   transform: rotate(-52deg) translate(-3px, 7px);
+  }
+  .mobile-menu.active .linha-2{
+   opacity: 0;    
+  }
+  .mobile-menu.active .linha-3{
+    transform: rotate(50deg) translate(-3px, -7px);
+  }
+
+  
+ 
+  
+  
+  .sessao1{
+    width: 100%;
+    display: flex; /* Ensure sections use flexbox for better layout */
+  }
+  
+  .sessao2{
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; 
+    width: 100%;
+    height: 85vh;
+  }
+  .sessao-sobreposta {
+    width: 45%; /* Adjust width for better proportions on mobile */
+    height: 35%;
+
+    background-position: top;
+  
+  }
+  .titulo-motivacao{
+    width: 70%;
+    height: 20%;
+    font-size:3.2vw;
+  }
+  .texto-motivacao {
+    margin-left: 2%;
+    font-size: 16px;
+    width: 65vw; /* Make titles and text span the full width on mobile */
+    height: 20vh;
+
+  }
+  
+
+  .sessao3 {
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 120vh;
+    overflow-y:auto;
+  }
+  /* Products */
+  .texto-produtos{
+    margin-top: -4%;
+    height: 15vh;
+    width: 40%;
+  }
+ 
+  .produtos {
+    flex-direction: column;
+    margin-top: 15%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    overflow-x: hidden;
+
+  }
+  .exemplo-produto {
+    width: 20vw;
+    height: 25vh;
+    
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 2.4vw;
+  }
+  
+  
+  /* Contact */
+  .contato-wpp {
+    bottom: 3%;
+    left: 2%;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+  }
+  .contato-wpp img{
+    width: 53px;
+    height: 53px;
+  }
+  .contato-wpp::before {
+    display: none;
+  }
+  footer{
+    height: 20vh;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  footer p{
+    margin-left: 25%;
+    font-size: 13px;
+    width: 60%;
+  }
+  }
+@media (max-width:778px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  body {
+    overflow-x:hidden;
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg);
+    background-position: center; 
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+  /* Header */
+  .head {
+    max-width: 100%;
+    display: flex;
+    height: 8vh;
+  }
+  .logo{
+  margin-left: 1%;
+  }
+  .img-logo{
+  margin-top: 5%;
+  height: 6vh ;
+  width: 35vw;
+  }
+  .mobile-menu{
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 48%;
+
+  }
+  .mobile-menu div{
+    margin-top: 10%;
+    height: 4px;
+    width: 32px;
+    background-color:#AC8027;
+    transition: 0.3s;
+  }
+  .redes-sociais{
+    display: none;
+  }
+  .links{
+    top: 10vh;
+    right: 4%;
+    width: 25vw;
+    height: 80vh;
+    background-color:#AC8027; 
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    transform: translateX(100vw);
+    transition: transform 0.4s ease-in ;
+    max-width: 80%;
+    display: none;
+  }
+  .links a {
+    font-size: medium;
+    color: aliceblue;
+  }
+  .links-pag{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+  }
+  .links-pag a{
+  margin-bottom:10%;
+  right:0%
+  }
+  
+  .links.active {
+    transform: translateX(0%);
+    display: flex;
+  }
+  @keyframes navlink {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .linha-1{
+   transform: rotate(-47deg) translate(-3px, 7px);
+  }
+  .mobile-menu.active .linha-2{
+   opacity: 0;    
+  }
+  .mobile-menu.active .linha-3{
+    transform: rotate(49deg) translate(-3px, -5px);
+  }
+
+  
+ 
+  
+  
+  .sessao1{
+    width: 100%;
+    display: flex; /* Ensure sections use flexbox for better layout */
+  }
+  
+  .sessao2{
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; 
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .sessao-sobreposta {
+    width: 60%; /* Adjust width for better proportions on mobile */
+    height: 35%;
+    margin-top: -40%;
+  }
+  .titulo-motivacao{
+    width: 95%;
+    height: 20%;
+    font-size: 5.5vw;
+    margin-top: 10%;
+    margin-left: 1%;
+  }
+  .texto-motivacao {
+    margin-top: 2%;
+    font-size: 3vw;
+    width: 75vw; /* Make titles and text span the full width on mobile */
+    height: 15vh;
+    margin-left: 1%;
+  }
+
+  .sessao3 {
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 130vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  /* Products */
+  .texto-produtos{
+    margin-top: -4%;
+    height: 15vh;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .texto-produtos p{
+    font-size: 16px;
+  }
+  .produtos {
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 15%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    overflow-x: hidden;
+  }
+  .exemplo-produto {
+    width: 20vw;
+    height: 25vh;
+    margin-left: 30%;
+    /* Make products take full width on mobile */
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 2.4vw;
+  }
+  
+  .sessao4{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .texto1{
+    width: 100%;
+    margin-top: 20%;
+    line-height: 28px;
+    font-size: 3.5vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 55px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 8vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 28px;
+    font-size: 3.5vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .caixa-promo p{
+    font-size: 5vw;
+  }
+  .sacola-promo{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  /* Contact */
+  .contato-wpp {
+    bottom: 3%;
+    left: 2%;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+  }
+  .contato-wpp img{
+    width: 53px;
+    height: 53px;
+  }
+  .contato-wpp::before {
+    display: none;
+  }
+  footer{
+    height: 20vh;
+    color:#ffffff;
+    background-color:#03031B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  footer p{
+    margin-left: 15%;
+    font-size: 2.2vw;
+    width: 60%;
+  }
+  }
+
+@media (max-width:550px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  body {
+    overflow-x:hidden;
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg); 
+    background-position: center;
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+  /* Header */
+  .head {
+    max-width: 100%;
+    display: flex;
+    height: 8vh;
+  }
+  .img-logo{
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+  }
+  .mobile-menu{
+    cursor: pointer;
+    margin-top: 2%;
+    display: block;
+    margin-left: 65%;
+  }
+  .mobile-menu div{
+    margin-top: 10%;
+    height: 4px;
+    width: 32px;
+    background-color:#AC8027;
+    transition: 0.3s;
+  }
+  .redes-sociais{
+    display: none;
+  }
+  .links{
+    top: 9vh;
+    right: 2%;
+    width: 34vw;
+    height: 80vh;
+    background-color:#AC8027; 
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    transform: translateX(100vw);
+    transition: transform 0.4s ease-in ;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .links a {
+    font-size: medium;
+  }
+  .links-pag{
+    width: 60%;
+    max-height: 80%;
+    display: flex;
+    position: absolute;  
+    flex-direction: column;
+    margin-bottom: 22%;
+    margin-left: 20%;
+  }
+  .links-pag a{
+  margin-top: 63%;
+  }
+  
+  .links.active {
+    transform: translateX(0%);
+    display: block;
+  }
+  @keyframes navlink {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .linha-1{
+   transform: rotate(-47deg) translate(-3px, 7px);
+  }
+  .mobile-menu.active .linha-2{
+   opacity: 0;    
+  }
+  .mobile-menu.active .linha-3{
+    transform: rotate(49deg) translate(-3px, -5px);
+  }
+  .img-logo{
+    margin-left: 5px; 
+  }
+  
+  .links a {
+    font-size: medium;
+    overflow: hidden;
+  }
+  
+  
+  .sessao1{
+    width: 100%;
+    display: flex; /* Ensure sections use flexbox for better layout */
+  }
+  
+  .sessao2{
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; 
+    width: 100%;
+    height: 75vh;
+  }
+  .titulo-motivacao{
+    width: 85%;
+    height: 20%;
+    margin-top: 5%;
+    font-size: 3.5vw;
+ 
+  }
+  .texto-motivacao {
+    font-size: 2.5vw;
+    width: 75vw; /* Make titles and text span the full width on mobile */
+   
+  }
+  .sessao-sobreposta {
+    width: 55%; /* Adjust width for better proportions on mobile */
+    height: 40%;
+    margin-top: -24%;
+  }
+  
+
+  .sessao3 {
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 120vh;
+    overflow: hidden;
+  }
+  /* Products */
+  .produtos {
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 20%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+  .texto-produtos{
+    margin-top: -4%;
+    height: 20vh;
+    width: 40%;
+  }
+  .texto-produtos p{
+    font-size: medium;
+  }
+  .exemplo-produto {
+    margin-top: 5%;
+    width: 30vw;
+    height: 20vh; /* Make products take full width on mobile */
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 3vw;
+  }
+  .sessao4{
+    display: flex;
+    flex-direction: column;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .texto1{
+    width: 100%;
+    margin-top: 20%;
+    line-height: 20px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 8.3vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 20px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .caixa-promo{
+    font-size: 5vw;
+  }
+  .sacola-promo{
+    margin-bottom: 15%;
+  }
+  
+  /* Contact */
+  .contato-wpp {
+    bottom: 2%;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+  }
+  .contato-wpp::before {
+    display: none;
+  }
+  footer{
+    height: 20vh;
+    color:#ffffff;
+    background-color: #03031B;
+    display: flex;
+  } 
+  footer p{
+    margin-left: 3%;
+    font-size: 13px;
+    width: 60%;
+  }
+  }
+
+@media (max-width:435px) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  overflow-x:hidden;
+  background-color: var(--bg-color);
+  background-image: url(FotoPai.jpg);
+  background-position: center; 
+  max-width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+/* Header */
+.head {
+  width: 100%;
+  display: flex;
+  height: 8vh;
+}
+.img-logo{
+  margin-left: 2px;
+  margin-top: 10%;
+  width: 45vw;
+  height: 5vh;
+}
+.mobile-menu{
+  cursor: pointer;
+  margin-top: 6%;
+  display: block;
+  margin-left: 35%;
+}
+.mobile-menu div{
+  margin-top: 10%;
+  height: 5px;
+  width: 22px;
+  background-color:#AC8027;
+  transition: 0.3s;
+}
+.redes-sociais{
+  display: none;
+}
+.links{
+  top: 11vh;
+  right: 2%;
+  width: 35vw;
+  height: 80vh;
+  background-color:#AC8027; 
+  display: flex;
+  align-items: center;
+  position: absolute;  
+  flex-direction: column;
+  transform: translateX(100vw);
+  transition: transform 0.4s ease-in ;
+  max-width: 80%;
+  display: none;
+}
+.links a {
+  font-size: 10px;
+  color: aliceblue;
+}
+.links-pag{
+  max-width: 90%;
+  max-height: 80%;
+  margin-right: 25%;
+  display: flex;
+  position: absolute;  
+
+  flex-direction: column;
+}
+.links-pag a{
+margin-bottom: 25%;
+right:0%
+}
+
+.links.active {
+  transform: translateX(0%);
+  display: flex;
+}
+@keyframes navlink {
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.mobile-menu.active .linha-1{
+ transform: rotate(-47deg) translate(-3px, 7px);
+}
+.mobile-menu.active .linha-2{
+ opacity: 0;    
+}
+.mobile-menu.active .linha-3{
+  transform: rotate(49deg) translate(-3px, -5px);
+}
+.img-logo{
+  margin-left: 5px; /* Center image horizontally on mobile */
+}
+
+.links a {
+  font-size: medium;
+  overflow: hidden;
+}
+
+
+.sessao1{
+  width: 100%;
+  display: flex; /* Ensure sections use flexbox for better layout */
+}
+
+.sessao2{
+  display: flex; /* Ensure sections use flexbox for better layout */
+  flex-direction: column; /* Stack elements vertically on mobile */
+  align-items: center; 
+  height: 68vh;
+}
+.sessao-sobreposta {
+  width: 60%; /* Adjust width for better proportions on mobile */
+  height: 25%;
+  margin-top: -60%;
+}
+.titulo-motivacao{
+  width: 90%;
+  height: 20%;
+  font-size: 6vw;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.texto-motivacao {
+  margin-top: 2%;
+  font-size: 4vw;
+  width: 75vw; /* Make titles and text span the full width on mobile */
+  height: 15vh;
+}
+
+
+.sessao3 {
+  display: flex; /* Ensure sections use flexbox for better layout */
+  flex-direction: column; /* Stack elements vertically on mobile */
+  height: 110vh;
+  overflow: hidden;
+}
+/* Products */
+.produtos {
+  flex-direction: column;
+  height: 200vh;
+  margin-left: 6%;
+  margin-top: 36%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+}
+.texto-produtos{
+  margin-left: 30%;
+  margin-top: -4%;
+  height: 20vh;
+  width: 40%;
+}
+.texto-produtos p{
+  font-size: medium;
+}
+.exemplo-produto {
+  margin-top: 5%;
+  width: 30vw;
+  height: 20vh; /* Make products take full width on mobile */
+}
+.desc-produto p {
+  width: 100%;
+  height: 20%;
+  font-size: 3vw;
+}
+.sessao4{
+  display: flex;
+  flex-direction: column;
+}
+.texto-promocao{
+  width: 90%;
+  margin-left: 10%;
+}
+.texto1{
+  width: 100%;
+  margin-top: 20%;
+  line-height: 20px;
+  font-size: 4vw;
+  font-family: "Poppins", sans-serif; ;
+}
+.texto2{
+  margin-top: 5%;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif; 
+  font-size: 8.5vw;
+  font-weight: 700;
+}
+.texto3{
+  margin-top:5%;
+  line-height: 20px;
+  font-size: 4vw;
+  font-family: "Poppins", sans-serif; ;
+}
+.caixa-promo p{
+  font-size: 5vw;
+}
+.sacola-promo{
+  margin-bottom: 15%;
+}
+
+/* Contact */
+.contato-wpp {
+  bottom:2%;
+  z-index: 10; 
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 30px;
+}
+.contato-wpp img{
+  width: 40px;
+  height: 40px;
+}
+footer{
+  height: 20vh;
+  color:#ffffff;
+  background-color:#03031B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+footer p{
+  font-size: 13px;
+  width: 60%;
+  margin-left: 10%;
+}
+}
+@media (max-width:414px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  body {
+    overflow-x:hidden;
+    background-color: var(--bg-color);
+    background-image: url(FotoPai.jpg);
+    background-position: center;
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+  /* Header */
+  .head {
+    height: 9vh;
+
+  }
+  .img-logo{
+    margin-left: 4vw;
+    margin-top: 7%;
+    width: 45vw;
+    height: 5vh;
+  }
+  .mobile-menu{
+    cursor: pointer;
+    margin-top: 5%;
+    display: block;
+    margin-left: 30%;
+  }
+  .sessao1{
+    width: 100%;
+    display: flex; /* Ensure sections use flexbox for better layout */
+  } 
+  .sessao2{
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; 
+    justify-content: center;
+    height: 68vh;
+  }
+  .sessao-sobreposta {
+    width: 60%; /* Adjust width for better proportions on mobile */
+    height: 30%;
+    margin-top: -50%;
+    background-position: top;
+  }
+  .titulo-motivacao{
+    width: 90%;
+    height: 20%;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .texto-motivacao {
+    margin-top: 2%;
+    font-size: 12px;
+    width: 75vw; /* Make titles and text span the full width on mobile */
+    height: 15vh;
+  }
+  
+  .sessao3 {
+    display: flex; /* Ensure sections use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: 120vh;
+    overflow: hidden;
+  }
+  /* Products */
+  .produtos {
+    flex-direction: column;
+    height: 200vh;
+    margin-left: 6%;
+    margin-top: 40%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+  .texto-produtos{
+    margin-left: 30%;
+    height: 20vh;
+    width: 40%;
+  }
+  .texto-produtos p{
+    font-size: medium;
+  }
+  .exemplo-produto {
+    margin-top: 5%;
+    width: 30vw;
+    height: 20vh; /* Make products take full width on mobile */
+  }
+  .desc-produto p {
+    width: 100%;
+    height: 20%;
+    font-size: 3vw;
+  }
+  .sessao4{
+    display: flex;
+    flex-direction: column;
+  }
+  .texto-promocao{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .texto1{
+    width: 100%;
+    margin-top: 20%;
+    line-height: 20px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+  .texto2{
+    margin-top: 5%;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 8.5vw;
+    font-weight: 700;
+  }
+  .texto3{
+    margin-top:5%;
+    line-height: 20px;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif; ;
+  }
+
+  .sacola-promo{
+    margin-bottom: 15%;
+  }
+
+  /* Contact */
+  .contato-wpp {
+    bottom:2%;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+  }
+  footer p{
+
+    margin-left: 10%;
+  }
+ 
+  }
+@media (max-width:360px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "DM Sans", sans-serif;
+    }
+    body {
+      overflow-x:hidden;
+      background-color: var(--bg-color);
+      background-image: url(FotoPai.jpg);
+      background-position: center; 
+      max-width: 100vw;
+      height: 100vh;
+      position: relative;
+      z-index: 0;
+    }
+    /* Header */
+    .head {
+      width: 100%;
+      display: flex;
+    }
+    .img-logo{
+      margin-left: 2px;
+      margin-top: 7%;
+      width: 40vw;
+      height: 5vh;
+    }
+    .mobile-menu{
+      cursor: pointer;
+      margin-top: 5%;
+      display: block;
+      margin-left: 40%;
+    }
+    .mobile-menu div{
+      margin-top: 10%;
+      height: 3px;
+      width: 22px;
+      background-color:#AC8027;
+      transition: 0.3s;
+    }
+    .redes-sociais{
+      display: none;
+    }
+    .links{
+      top: 8vh;
+      right: 2%;
+      width: 35vw;
+      height: 70vh;
+      background-color:#AC8027; 
+      display: flex;
+      position: absolute;  
+      flex-direction: column;
+      transform: translateX(100vw);
+      transition: transform 0.4s ease-in ;
+      max-width: 80%;
+      display: none;
+    }
+
+    .links-pag{
+      max-width: 90%;
+      max-height: 80%;
+      display: flex;
+      position: absolute;  
+      flex-direction: column;
+      margin-top: 30%;
+    }
+    .links-pag a{
+      margin-top: 25%;
+    }
+    
+    .links.active {
+      transform: translateX(0%);
+      display: flex;
+    }
+    @keyframes navlink {
+      from{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .mobile-menu.active .linha-1{
+     transform: rotate(-47deg) translate(-3px, 7px);
+    }
+    .mobile-menu.active .linha-2{
+     opacity: 0;    
+    }
+    .mobile-menu.active .linha-3{
+      transform: rotate(49deg) translate(-3px, -5px);
+    }
+    .img-logo{
+      margin-left: 5px; /* Center image horizontally on mobile */
+    }
+    
+    .links a {
+      font-size: medium;
+      overflow: hidden;
+    }
+    
+    
+    .sessao1{
+      width: 100%;
+      display: flex;
+      overflow-x: hidden;
+       /* Ensure sections use flexbox for better layout */
+    }
+    
+    .sessao2{
+      display: flex; /* Ensure sections use flexbox for better layout */
+      flex-direction: column; /* Stack elements vertically on mobile */
+      align-items: center; 
+      height: 75vh;
+    }
+    .sessao-sobreposta {
+      width: 65%; /* Adjust width for better proportions on mobile */
+      height: 25%;
+      margin-left: 10%;
+    margin-top: -60%;
+    }
+    .titulo-motivacao{
+      width: 70%;
+      height: 20%;
+      margin-top: 5%;
+      font-size: 16px;
+    }
+    .texto-motivacao {
+      font-size: 12px;
+      width: 75vw; /* Make titles and text span the full width on mobile */
+      height: 15vh;
+    }
+    
+    
+    .sessao3 {
+      display: flex; /* Ensure sections use flexbox for better layout */
+      flex-direction: column; /* Stack elements vertically on mobile */
+      height: 110vh;
+      overflow: hidden;
+    }
+    /* Products */
+    .produtos {
+      flex-direction: column;
+      height: 200vh;
+      margin-left: 6%;
+
+      display: flex;
+      justify-content:flex-start;
+      overflow-x: hidden;
+      align-items: flex-start;
+    }
+    .texto-produtos{
+      margin-left: 30%;
+      margin-top: -4%;
+      height: 20vh;
+      width: 40%;
+      overflow-x: hidden;
+    }
+    .texto-produtos p{
+      font-size: 12px;
+    }
+    .exemplo-produto {
+      margin-top: 5%;
+      width: 30vw;
+      height: 20vh; /* Make products take full width on mobile */
+    }
+    .desc-produto p {
+      width: 100%;
+      height: 20%;
+      font-size: 3vw;
+    }
+    .sessao4{
+      overflow-x: hidden;
+    }
+    /* Contact */
+    .contato-wpp {
+      bottom:3%;
+      z-index: 10; 
+      background-color: rgba(0, 0, 0, 0.0);
+      border-radius: 30px;
+    }
+    .contato-wpp img{
+      width: 35px;
+      height: 35px;
+    }
+    footer{
+      height: 20vh;
+      color:#ffffff;
+      background-color:#03031B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    footer p{
+      font-size: 13px;
+      width: 65%;
+      margin-right: 20%;
+    }
+  }
+@media (max-width:344px){
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "DM Sans", sans-serif;
+    }
+    body {
+      overflow-x:hidden;
+      background-color: var(--bg-color);
+      background-image: url(FotoPai.jpg);
+      background-position: center; 
+      max-width: 100vw;
+      height: 100vh;
+      position: relative;
+      z-index: 0;
+    }
+    /* Header */
+    .head {
+      width: 100%;
+      display: flex;
+      height: 7vh;
+    }
+    .img-logo{
+      margin-left: 2px;
+      margin-top: 10%;
+      width: 110px;
+      height: 80%;
+    }
+    .mobile-menu{
+      cursor: pointer;
+      margin-top: 5%;
+      display: block;
+      margin-left: 50%;
+    }
+    .mobile-menu div{
+      margin-top: 10%;
+      height: 3px;
+      width: 22px;
+      background-color:#AC8027;
+      transition: 0.3s;
+    }
+    .redes-sociais{
+      display: none;
+    }
+    .links{
+      top: 7vh;
+      right: 0%;
+      width: 43vw;
+      height: 80vh;
+      background-color:#AC8027; 
+      display: flex;
+      position: absolute;  
+      flex-direction: column;
+      transform: translateX(100vw);
+      transition: transform 0.4s ease-in ;
+      max-width: 80%;
+      display: none;
+    }
+
+    .links-pag{
+      width: 100%;
+      max-height: 80%;
+      overflow-x: hidden;
+      display: flex;
+      position: absolute;  
+      flex-direction: column;
+    }
+    .links-pag a{
+    margin-bottom: 25%;
+    right:0%;
+  
+    }
+    
+    .links.active {
+      transform: translateX(0%);
+      display: flex;
+    }
+    @keyframes navlink {
+      from{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .mobile-menu.active .linha-1{
+     transform: rotate(-47deg) translate(-3px, 7px);
+    }
+    .mobile-menu.active .linha-2{
+     opacity: 0;    
+    }
+    .mobile-menu.active .linha-3{
+      transform: rotate(49deg) translate(-3px, -5px);
+    }
+    .img-logo{
+      margin-left: 5px; /* Center image horizontally on mobile */
+    }
+    
+    .links a {
+      font-size: medium;
+      overflow: hidden;
+    }
+    
+    
+    .sessao1{
+      width: 100%;
+      display: flex;
+      overflow-x: hidden;
+       /* Ensure sections use flexbox for better layout */
+    }
+    
+    .sessao2{
+      display: flex; /* Ensure sections use flexbox for better layout */
+      flex-direction: column; /* Stack elements vertically on mobile */
+      align-items: center; 
+      height: 70vh;
+      
+    }
+    .sessao-sobreposta {
+      width: 60%; /* Adjust width for better proportions on mobile */
+      height: 25%;
+      margin-top: -63%;
+    }
+    .titulo-motivacao{
+      width: 90%;
+      height: 20%;
+      font-size: 18px;
+      margin-top: 10%;
+      margin-left: 5%;
+    }
+    .texto-motivacao {
+      margin-top: 2%;
+      font-size: 12px;
+      width: 75vw; /* Make titles and text span the full width on mobile */
+      height: 15vh;
+    }
+    
+    .sessao3 {
+      display: flex; /* Ensure sections use flexbox for better layout */
+      flex-direction: column; /* Stack elements vertically on mobile */
+      height: 100vh;
+      overflow: hidden;
+    }
+    /* Products */
+    .produtos {
+      flex-direction: column;
+      height: 200vh;
+      margin-left: 6%;
+      margin-top: 45%;
+      display: flex;
+      overflow-x: hidden;
+    }
+    .texto-produtos{
+      margin-left: 30%;
+      margin-top: -4%;
+      height: 20vh;
+      width: 40%;
+      overflow-x: hidden;
+    }
+    .texto-produtos p{
+      font-size: 12px;
+    }
+    .exemplo-produto {
+      margin-top: 5%;
+      width: 30vw;
+      height: 20vh; /* Make products take full width on mobile */
+    }
+    .desc-produto p {
+      width: 100%;
+      height: 20%;
+      font-size: 3vw;
+    }
+    .sessao4{
+      overflow-x: hidden;
+    }
+    /* Contact */
+    .contato-wpp {
+      bottom:1.5%;
+      z-index: 10; 
+      background-color: rgba(0, 0, 0, 0.0);
+      border-radius: 30px;
+    }
+    .contato-wpp img{
+      width: 35px;
+      height: 35px;
+    }
+    footer{
+      height: 20vh;
+      color:#ffffff;
+      background-color:#03031B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    footer p{
+      font-size: 13px;
+      width: 65%;
+      margin-right: 20%;
+    }
+  }
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+      overflow-x:hidden;
+      background-color: var(--bg-color);
+      background-image: url(FotoPai.jpg);
+      background-position: center; 
+      max-width: 100vw;
+      height: 100vh;
+      position: relative;
+      z-index: 0;
+    }
+  }
